@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "ChopURL",
+  "version": "1.0",
+  "description": "Shorten URLs with ChopURL!",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab", "clipboardWrite", "tabs"],
+  "host_permissions": ["https://chopurlapi.onrender.com/"],
+  "icons": {
+    "32": "icon32.png",
+    "48": "icon48.png"
+  }
+}
